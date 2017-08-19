@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body onload="show()">
+	<div id="poem"></div>
+
+	<script>
+	var i=0;
+	function show(){
+		
+		var poemName="静夜思";
+		var poemAuthor="李白";
+		var poem=new Array();
+		poem[2]="床前明月光";
+		poem[3]="床前明月光";
+		poem[4]="床前明月光";
+		poem[5]="床前明月光";
+		document.getElementById("poem").innerHTML=poemName.substring(0,i);
+		i=i+1;
+		if(i<4){
+			setTimeout("show()",1000);
+		}
+	}
+	</script>
+</body>
+</html>

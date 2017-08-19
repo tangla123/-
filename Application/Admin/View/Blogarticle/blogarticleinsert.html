@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>后台管理</title>
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Admin/css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Admin/css/main.css"/>
+    <script type="text/javascript" src="__PUBLIC__/Admin/js/libs/modernizr.min.js"></script>
+</head>
+<body>
+<include file="Pub/top" /> 
+    <include file="Pub/left" /> 
+    <!--/sidebar-->
+    <div class="main-wrap">
+
+        <div class="crumb-wrap">
+            <div class="crumb-list"><i class="icon-font"></i><a href="/js__PUBLIC__/Admin/css/admin/design/">首页</a><span class="crumb-step">&gt;</span><a class="crumb-name" href="/js__PUBLIC__/Admin/css/admin/design/">作品管理</a><span class="crumb-step">&gt;</span><span>新增作品</span></div>
+        </div>
+        <div class="result-wrap">
+            <div class="result-content">
+                <form action="__URL__/insert/" method="post" enctype="multipart/form-data">
+                    <table class="insert-tab" width="100%">
+                        <tbody>
+                            <tr>
+                                <th><i class="require-red">*</i>分类：</th>
+                                <td>
+                                  <select name="cat_idi">
+                                   <volist name="date" id="v">
+                                  <option value="{$v.cat_id}">{$v.cat_name}</option>
+                                  </volist>
+                                  </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                 <th width="120"><i class="require-red">*</i>排序：</th>
+                                 <td>
+                                   <input type="text" name="aord">
+                                  </td>
+                             </tr>
+                             <tr>
+                                 <th width="120"><i class="require-red">*</i>博文名称：</th>
+                                 <td>
+                                   <input type="text" name="title">
+                                  </td>
+                             </tr>
+                            <tr>
+                                <th><i class="require-red">*</i>简短描述：</th>
+                                <td>
+                                  <input type="text" name="short_desc">
+                                </td>
+                            </tr>
+                              <tr>
+                                <th>图片：</th>
+                                <td>
+                                  <input type="file" name="source_img">
+                                </td>
+                            </tr>
+                             <tr>
+                                <th><i class="require-red">*</i>作者：</th>
+                                <td>
+                                  <input type="text" name="author" value="{$Think.cookie.uid}">
+                                </td>
+                            </tr>
+                             <tr>
+                                <th><i class="require-red">*</i>是否展示：</th>
+                                <td>
+                                <label><input type="radio" name="is_delete" value="1" checked>&nbsp;是</label>
+                                &nbsp;
+                                <label><input type="radio" name="is_delete" value="0">&nbsp;否</label>
+                                </td>
+                            </tr>
+                             <tr>
+                                <th><i class="require-red">*</i>是否置顶：</th>
+                                <td>
+                                <label><input type="radio" name="is_top" value="1" checked>&nbsp;是</label>
+                                &nbsp;
+                                <label><input type="radio" name="is_top" value="0">&nbsp;否</label>
+                                </td>
+                            </tr>
+                             <tr>
+                                <th><i class="require-red">*</i>是否推荐：</th>
+                                <td>
+                                <label><input type="radio" name="is_recommend" value="1" checked>&nbsp;是</label>
+                                &nbsp;
+                                <label><input type="radio" name="is_recommend" value="0">&nbsp;否</label>
+                                </td>
+                            </tr>
+                             <tr>
+                                <th><i class="require-red">*</i>内容：</th>
+                                <td>
+                                  <textarea name="content" class="common-textarea" id="content" cols="30" style="width: 98%;" rows="10">
+                                  </textarea>
+                                </td>
+                            </tr>
+
+      <!--                       <tr>
+                                <th><i class="require-red">*</i>缩略图：</th>
+                                <td><input name="smallimg" id="" type="file"><input type="submit" onclick="submitForm('/js__PUBLIC__/Admin/css/admin/design/upload')" value="上传图片"/></td>
+                            </tr> -->
+
+                            <tr>
+                                <th></th>
+                                <td>
+                                    <input class="btn btn-primary btn6 mr10" value="提交" type="submit">
+                                    <input class="btn btn6" onclick="history.go(-1)" value="返回" type="button">
+                                </td>
+                            </tr>
+                        </tbody></table>
+                </form>
+            </div>
+        </div>
+
+    </div>
+    <!--/main-->
+</div>
+</body>
+</html>

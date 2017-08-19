@@ -1,0 +1,12 @@
+<header>
+  <nav id="nav">
+    <ul>
+    <li><a href="{:U('Index/index')}">网站首页</a></li>
+    <volist name="ca" id="c">
+      <li><a href="__URL__/two/id/{$c.cat_id}" >{$c.cat_name}</a></li>
+     </volist> 
+     <li><a href="{:U('Index/three')}">登录/注册</a></li>
+    </ul>
+    <script src="__PUBLIC__/Home/js/silder.js"></script><!--获取当前页导航 高亮显示标题--> 
+  </nav>
+</header>

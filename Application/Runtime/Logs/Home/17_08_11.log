@@ -1,0 +1,2142 @@
+[ 2017-08-11T16:14:43+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogarticleModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogarticleModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `blogarticle` ORDER BY art_id desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blogarticle` ORDER BY read_num desc LIMIT 9   [ RunTime:0.0020s ]
+NOTIC: [2048] Declaration of Home\Model\BlogfriendlinkModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogfriendlinkModel.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `blogfriendlink`  [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\CategoryModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\CategoryModel.class.php 第 73 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.090005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.090005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-11T16:18:56+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogarticleModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogarticleModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blogarticle` ORDER BY art_id desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blogarticle` ORDER BY read_num desc LIMIT 9   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\BlogfriendlinkModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogfriendlinkModel.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blogfriendlink`  [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\CategoryModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\CategoryModel.class.php 第 73 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-11T16:19:39+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogarticleModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogarticleModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blogarticle` ORDER BY art_id desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blogarticle` ORDER BY read_num desc LIMIT 9   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogfriendlinkModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogfriendlinkModel.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blogfriendlink`  [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\CategoryModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\CategoryModel.class.php 第 73 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-11T16:19:42+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/two/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogarticleModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogarticleModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `blogarticle` ORDER BY read_num desc LIMIT 9   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\BlogfriendlinkModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogfriendlinkModel.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `blogfriendlink`  [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\CategoryModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\CategoryModel.class.php 第 73 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 )  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `category` inner join blogarticle On blogarticle.cat_idi=category.cat_id  WHERE (  cat_id=8 ) ORDER BY art_id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-08-11T16:19:47+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/two/id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogarticleModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogarticleModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blogarticle` ORDER BY read_num desc LIMIT 9   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogfriendlinkModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogfriendlinkModel.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `blogfriendlink`  [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\CategoryModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\CategoryModel.class.php 第 73 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` inner join blogarticle On blogarticle.cat_idi=category.cat_id  WHERE (  cat_id=7 ) ORDER BY art_id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-11T16:19:49+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogarticleModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogarticleModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `blogarticle` ORDER BY art_id desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blogarticle` ORDER BY read_num desc LIMIT 9   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\BlogfriendlinkModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogfriendlinkModel.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `blogfriendlink`  [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\CategoryModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\CategoryModel.class.php 第 73 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-11T16:19:51+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogarticleModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogarticleModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blogarticle` ORDER BY art_id desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blogarticle` ORDER BY read_num desc LIMIT 9   [ RunTime:0.0020s ]
+NOTIC: [2048] Declaration of Home\Model\BlogfriendlinkModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogfriendlinkModel.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blogfriendlink`  [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\CategoryModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\CategoryModel.class.php 第 73 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-11T16:19:53+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogarticleModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogarticleModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `blogarticle` ORDER BY art_id desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blogarticle` ORDER BY read_num desc LIMIT 9   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\BlogfriendlinkModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogfriendlinkModel.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blogfriendlink`  [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\CategoryModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\CategoryModel.class.php 第 73 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-11T16:19:55+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/two/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogarticleModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogarticleModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `blogarticle` ORDER BY read_num desc LIMIT 9   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\BlogfriendlinkModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogfriendlinkModel.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `blogfriendlink`  [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\CategoryModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\CategoryModel.class.php 第 73 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` inner join blogarticle On blogarticle.cat_idi=category.cat_id  WHERE (  cat_id=1 ) ORDER BY art_id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-11T16:19:57+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/two/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogarticleModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogarticleModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `blogarticle` ORDER BY read_num desc LIMIT 9   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\BlogfriendlinkModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogfriendlinkModel.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blogfriendlink`  [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\CategoryModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\CategoryModel.class.php 第 73 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` inner join blogarticle On blogarticle.cat_idi=category.cat_id  WHERE (  cat_id=2 ) ORDER BY art_id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-11T16:20:25+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/two/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogarticleModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogarticleModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blogarticle` ORDER BY read_num desc LIMIT 9   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\BlogfriendlinkModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogfriendlinkModel.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blogfriendlink`  [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\CategoryModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\CategoryModel.class.php 第 73 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` inner join blogarticle On blogarticle.cat_idi=category.cat_id  WHERE (  cat_id=2 ) ORDER BY art_id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-11T16:20:26+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/two/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogarticleModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogarticleModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `blogarticle` ORDER BY read_num desc LIMIT 9   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\BlogfriendlinkModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogfriendlinkModel.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blogfriendlink`  [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\CategoryModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\CategoryModel.class.php 第 73 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` inner join blogarticle On blogarticle.cat_idi=category.cat_id  WHERE (  cat_id=2 ) ORDER BY art_id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-11T16:21:08+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/two/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogarticleModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogarticleModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `blogarticle` ORDER BY read_num desc LIMIT 9   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\BlogfriendlinkModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogfriendlinkModel.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `blogfriendlink`  [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\CategoryModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\CategoryModel.class.php 第 73 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` inner join blogarticle On blogarticle.cat_idi=category.cat_id  WHERE (  cat_id=2 ) ORDER BY art_id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-11T16:21:10+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/two/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogarticleModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogarticleModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `blogarticle` ORDER BY read_num desc LIMIT 9   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\BlogfriendlinkModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogfriendlinkModel.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `blogfriendlink`  [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\CategoryModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\CategoryModel.class.php 第 73 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` inner join blogarticle On blogarticle.cat_idi=category.cat_id  WHERE (  cat_id=2 ) ORDER BY art_id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-11T16:21:19+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/two/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogarticleModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogarticleModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blogarticle` ORDER BY read_num desc LIMIT 9   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\BlogfriendlinkModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogfriendlinkModel.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blogfriendlink`  [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\CategoryModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\CategoryModel.class.php 第 73 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` inner join blogarticle On blogarticle.cat_idi=category.cat_id  WHERE (  cat_id=2 ) ORDER BY art_id desc  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-11T16:21:21+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/two/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogarticleModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogarticleModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `blogarticle` ORDER BY read_num desc LIMIT 9   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\BlogfriendlinkModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogfriendlinkModel.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blogfriendlink`  [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\CategoryModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\CategoryModel.class.php 第 73 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` inner join blogarticle On blogarticle.cat_idi=category.cat_id  WHERE (  cat_id=2 ) ORDER BY art_id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-11T16:21:25+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/two/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogarticleModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogarticleModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `blogarticle` ORDER BY read_num desc LIMIT 9   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\BlogfriendlinkModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogfriendlinkModel.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `blogfriendlink`  [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\CategoryModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\CategoryModel.class.php 第 73 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` inner join blogarticle On blogarticle.cat_idi=category.cat_id  WHERE (  cat_id=1 ) ORDER BY art_id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-11T16:21:26+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogarticleModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogarticleModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `blogarticle` ORDER BY art_id desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blogarticle` ORDER BY read_num desc LIMIT 9   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\BlogfriendlinkModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogfriendlinkModel.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `blogfriendlink`  [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\CategoryModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\CategoryModel.class.php 第 73 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-11T16:21:28+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogarticleModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogarticleModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0520s ]
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `blogarticle` ORDER BY art_id desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blogarticle` ORDER BY read_num desc LIMIT 9   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\BlogfriendlinkModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogfriendlinkModel.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `blogfriendlink`  [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\CategoryModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\CategoryModel.class.php 第 73 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-08-11T16:22:14+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogarticleModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogarticleModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blogarticle` ORDER BY art_id desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blogarticle` ORDER BY read_num desc LIMIT 9   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\BlogfriendlinkModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogfriendlinkModel.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blogfriendlink`  [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\CategoryModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\CategoryModel.class.php 第 73 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-11T16:22:15+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogarticleModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogarticleModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `blogarticle` ORDER BY art_id desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blogarticle` ORDER BY read_num desc LIMIT 9   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\BlogfriendlinkModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogfriendlinkModel.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blogfriendlink`  [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\CategoryModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\CategoryModel.class.php 第 73 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-11T16:24:42+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogarticleModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogarticleModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blogarticle` ORDER BY art_id desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blogarticle` ORDER BY read_num desc LIMIT 9   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\BlogfriendlinkModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogfriendlinkModel.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blogfriendlink`  [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\CategoryModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\CategoryModel.class.php 第 73 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-11T16:24:43+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogarticleModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogarticleModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blogarticle` ORDER BY art_id desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blogarticle` ORDER BY read_num desc LIMIT 9   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogfriendlinkModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogfriendlinkModel.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blogfriendlink`  [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\CategoryModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\CategoryModel.class.php 第 73 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-11T16:25:08+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogarticleModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogarticleModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blogarticle` ORDER BY art_id desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blogarticle` ORDER BY read_num desc LIMIT 9   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\BlogfriendlinkModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogfriendlinkModel.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blogfriendlink`  [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\CategoryModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\CategoryModel.class.php 第 73 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-11T16:25:10+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/two/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogarticleModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogarticleModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `blogarticle` ORDER BY read_num desc LIMIT 9   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\BlogfriendlinkModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogfriendlinkModel.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `blogfriendlink`  [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\CategoryModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\CategoryModel.class.php 第 73 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` inner join blogarticle On blogarticle.cat_idi=category.cat_id  WHERE (  cat_id=9 ) ORDER BY art_id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-11T16:25:12+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogarticleModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogarticleModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `blogarticle` ORDER BY art_id desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blogarticle` ORDER BY read_num desc LIMIT 9   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\BlogfriendlinkModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogfriendlinkModel.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blogfriendlink`  [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\CategoryModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\CategoryModel.class.php 第 73 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-11T16:25:14+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/two/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogarticleModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogarticleModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `blogarticle` ORDER BY read_num desc LIMIT 9   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\BlogfriendlinkModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogfriendlinkModel.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `blogfriendlink`  [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\CategoryModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\CategoryModel.class.php 第 73 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` inner join blogarticle On blogarticle.cat_idi=category.cat_id  WHERE (  cat_id=9 ) ORDER BY art_id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-11T16:28:47+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/two/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogarticleModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogarticleModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blogarticle` ORDER BY read_num desc LIMIT 9   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\BlogfriendlinkModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogfriendlinkModel.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blogfriendlink`  [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\CategoryModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\CategoryModel.class.php 第 73 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` inner join blogarticle On blogarticle.cat_idi=category.cat_id  WHERE (  cat_id=9 ) ORDER BY art_id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-11T16:28:48+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogarticleModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogarticleModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `blogarticle` ORDER BY art_id desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blogarticle` ORDER BY read_num desc LIMIT 9   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\BlogfriendlinkModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogfriendlinkModel.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `blogfriendlink`  [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\CategoryModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\CategoryModel.class.php 第 73 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-11T16:29:25+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogarticleModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogarticleModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blogarticle` ORDER BY art_id desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blogarticle` ORDER BY read_num desc LIMIT 9   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\BlogfriendlinkModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogfriendlinkModel.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blogfriendlink`  [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\CategoryModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\CategoryModel.class.php 第 73 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-11T16:29:28+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogarticleModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogarticleModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `blogarticle` ORDER BY art_id desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blogarticle` ORDER BY read_num desc LIMIT 9   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogfriendlinkModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogfriendlinkModel.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blogfriendlink`  [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\CategoryModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\CategoryModel.class.php 第 73 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-11T16:29:30+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogarticleModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogarticleModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `blogarticle` ORDER BY art_id desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blogarticle` ORDER BY read_num desc LIMIT 9   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\BlogfriendlinkModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogfriendlinkModel.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blogfriendlink`  [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\CategoryModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\CategoryModel.class.php 第 73 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-11T16:29:31+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogarticleModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogarticleModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blogarticle` ORDER BY art_id desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blogarticle` ORDER BY read_num desc LIMIT 9   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\BlogfriendlinkModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogfriendlinkModel.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blogfriendlink`  [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\CategoryModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\CategoryModel.class.php 第 73 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-11T16:29:32+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogarticleModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogarticleModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `blogarticle` ORDER BY art_id desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blogarticle` ORDER BY read_num desc LIMIT 9   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\BlogfriendlinkModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogfriendlinkModel.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `blogfriendlink`  [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\CategoryModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\CategoryModel.class.php 第 73 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-11T16:29:41+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogarticleModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogarticleModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `blogarticle` ORDER BY art_id desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blogarticle` ORDER BY read_num desc LIMIT 9   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\BlogfriendlinkModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogfriendlinkModel.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `blogfriendlink`  [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\CategoryModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\CategoryModel.class.php 第 73 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-11T16:29:42+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/three.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: ca D:\WWW\blogs\Application\Runtime\Cache\Home\b0f331fd712556a290009631187d3bf4.php 第 24 行.
+NOTIC: [8] Undefined variable: article D:\WWW\blogs\Application\Runtime\Cache\Home\b0f331fd712556a290009631187d3bf4.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-11T16:31:42+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/three.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\CategoryModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\CategoryModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+NOTIC: [2] Missing argument 1 for Home\Model\CategoryModel::show(), called in D:\WWW\blogs\Application\Home\Controller\IndexController.class.php on line 52 and defined D:\WWW\blogs\Application\Home\Model\CategoryModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: n D:\WWW\blogs\Application\Home\Model\CategoryModel.class.php 第 11 行.
+SQL: SELECT * FROM `category`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: ca D:\WWW\blogs\Application\Runtime\Cache\Home\b0f331fd712556a290009631187d3bf4.php 第 24 行.
+NOTIC: [8] Undefined index: art_id D:\WWW\blogs\Application\Runtime\Cache\Home\b0f331fd712556a290009631187d3bf4.php 第 61 行.
+NOTIC: [8] Undefined index: title D:\WWW\blogs\Application\Runtime\Cache\Home\b0f331fd712556a290009631187d3bf4.php 第 61 行.
+NOTIC: [8] Undefined index: art_id D:\WWW\blogs\Application\Runtime\Cache\Home\b0f331fd712556a290009631187d3bf4.php 第 63 行.
+NOTIC: [8] Undefined index: source_img D:\WWW\blogs\Application\Runtime\Cache\Home\b0f331fd712556a290009631187d3bf4.php 第 63 行.
+NOTIC: [8] Undefined index: short_desc D:\WWW\blogs\Application\Runtime\Cache\Home\b0f331fd712556a290009631187d3bf4.php 第 64 行.
+NOTIC: [8] Undefined index: read_num D:\WWW\blogs\Application\Runtime\Cache\Home\b0f331fd712556a290009631187d3bf4.php 第 70 行.
+NOTIC: [8] Undefined index: day_time D:\WWW\blogs\Application\Runtime\Cache\Home\b0f331fd712556a290009631187d3bf4.php 第 73 行.
+NOTIC: [8] Undefined index: art_id D:\WWW\blogs\Application\Runtime\Cache\Home\b0f331fd712556a290009631187d3bf4.php 第 61 行.
+NOTIC: [8] Undefined index: title D:\WWW\blogs\Application\Runtime\Cache\Home\b0f331fd712556a290009631187d3bf4.php 第 61 行.
+NOTIC: [8] Undefined index: art_id D:\WWW\blogs\Application\Runtime\Cache\Home\b0f331fd712556a290009631187d3bf4.php 第 63 行.
+NOTIC: [8] Undefined index: source_img D:\WWW\blogs\Application\Runtime\Cache\Home\b0f331fd712556a290009631187d3bf4.php 第 63 行.
+NOTIC: [8] Undefined index: short_desc D:\WWW\blogs\Application\Runtime\Cache\Home\b0f331fd712556a290009631187d3bf4.php 第 64 行.
+NOTIC: [8] Undefined index: read_num D:\WWW\blogs\Application\Runtime\Cache\Home\b0f331fd712556a290009631187d3bf4.php 第 70 行.
+NOTIC: [8] Undefined index: day_time D:\WWW\blogs\Application\Runtime\Cache\Home\b0f331fd712556a290009631187d3bf4.php 第 73 行.
+NOTIC: [8] Undefined index: art_id D:\WWW\blogs\Application\Runtime\Cache\Home\b0f331fd712556a290009631187d3bf4.php 第 61 行.
+NOTIC: [8] Undefined index: title D:\WWW\blogs\Application\Runtime\Cache\Home\b0f331fd712556a290009631187d3bf4.php 第 61 行.
+NOTIC: [8] Undefined index: art_id D:\WWW\blogs\Application\Runtime\Cache\Home\b0f331fd712556a290009631187d3bf4.php 第 63 行.
+NOTIC: [8] Undefined index: source_img D:\WWW\blogs\Application\Runtime\Cache\Home\b0f331fd712556a290009631187d3bf4.php 第 63 行.
+NOTIC: [8] Undefined index: short_desc D:\WWW\blogs\Application\Runtime\Cache\Home\b0f331fd712556a290009631187d3bf4.php 第 64 行.
+NOTIC: [8] Undefined index: read_num D:\WWW\blogs\Application\Runtime\Cache\Home\b0f331fd712556a290009631187d3bf4.php 第 70 行.
+NOTIC: [8] Undefined index: day_time D:\WWW\blogs\Application\Runtime\Cache\Home\b0f331fd712556a290009631187d3bf4.php 第 73 行.
+NOTIC: [8] Undefined index: art_id D:\WWW\blogs\Application\Runtime\Cache\Home\b0f331fd712556a290009631187d3bf4.php 第 61 行.
+NOTIC: [8] Undefined index: title D:\WWW\blogs\Application\Runtime\Cache\Home\b0f331fd712556a290009631187d3bf4.php 第 61 行.
+NOTIC: [8] Undefined index: art_id D:\WWW\blogs\Application\Runtime\Cache\Home\b0f331fd712556a290009631187d3bf4.php 第 63 行.
+NOTIC: [8] Undefined index: source_img D:\WWW\blogs\Application\Runtime\Cache\Home\b0f331fd712556a290009631187d3bf4.php 第 63 行.
+NOTIC: [8] Undefined index: short_desc D:\WWW\blogs\Application\Runtime\Cache\Home\b0f331fd712556a290009631187d3bf4.php 第 64 行.
+NOTIC: [8] Undefined index: read_num D:\WWW\blogs\Application\Runtime\Cache\Home\b0f331fd712556a290009631187d3bf4.php 第 70 行.
+NOTIC: [8] Undefined index: day_time D:\WWW\blogs\Application\Runtime\Cache\Home\b0f331fd712556a290009631187d3bf4.php 第 73 行.
+NOTIC: [8] Undefined index: art_id D:\WWW\blogs\Application\Runtime\Cache\Home\b0f331fd712556a290009631187d3bf4.php 第 61 行.
+NOTIC: [8] Undefined index: title D:\WWW\blogs\Application\Runtime\Cache\Home\b0f331fd712556a290009631187d3bf4.php 第 61 行.
+NOTIC: [8] Undefined index: art_id D:\WWW\blogs\Application\Runtime\Cache\Home\b0f331fd712556a290009631187d3bf4.php 第 63 行.
+NOTIC: [8] Undefined index: source_img D:\WWW\blogs\Application\Runtime\Cache\Home\b0f331fd712556a290009631187d3bf4.php 第 63 行.
+NOTIC: [8] Undefined index: short_desc D:\WWW\blogs\Application\Runtime\Cache\Home\b0f331fd712556a290009631187d3bf4.php 第 64 行.
+NOTIC: [8] Undefined index: read_num D:\WWW\blogs\Application\Runtime\Cache\Home\b0f331fd712556a290009631187d3bf4.php 第 70 行.
+NOTIC: [8] Undefined index: day_time D:\WWW\blogs\Application\Runtime\Cache\Home\b0f331fd712556a290009631187d3bf4.php 第 73 行.
+NOTIC: [8] Undefined index: art_id D:\WWW\blogs\Application\Runtime\Cache\Home\b0f331fd712556a290009631187d3bf4.php 第 61 行.
+NOTIC: [8] Undefined index: title D:\WWW\blogs\Application\Runtime\Cache\Home\b0f331fd712556a290009631187d3bf4.php 第 61 行.
+NOTIC: [8] Undefined index: art_id D:\WWW\blogs\Application\Runtime\Cache\Home\b0f331fd712556a290009631187d3bf4.php 第 63 行.
+NOTIC: [8] Undefined index: source_img D:\WWW\blogs\Application\Runtime\Cache\Home\b0f331fd712556a290009631187d3bf4.php 第 63 行.
+NOTIC: [8] Undefined index: short_desc D:\WWW\blogs\Application\Runtime\Cache\Home\b0f331fd712556a290009631187d3bf4.php 第 64 行.
+NOTIC: [8] Undefined index: read_num D:\WWW\blogs\Application\Runtime\Cache\Home\b0f331fd712556a290009631187d3bf4.php 第 70 行.
+NOTIC: [8] Undefined index: day_time D:\WWW\blogs\Application\Runtime\Cache\Home\b0f331fd712556a290009631187d3bf4.php 第 73 行.
+NOTIC: [8] Undefined index: art_id D:\WWW\blogs\Application\Runtime\Cache\Home\b0f331fd712556a290009631187d3bf4.php 第 61 行.
+NOTIC: [8] Undefined index: title D:\WWW\blogs\Application\Runtime\Cache\Home\b0f331fd712556a290009631187d3bf4.php 第 61 行.
+NOTIC: [8] Undefined index: art_id D:\WWW\blogs\Application\Runtime\Cache\Home\b0f331fd712556a290009631187d3bf4.php 第 63 行.
+NOTIC: [8] Undefined index: source_img D:\WWW\blogs\Application\Runtime\Cache\Home\b0f331fd712556a290009631187d3bf4.php 第 63 行.
+NOTIC: [8] Undefined index: short_desc D:\WWW\blogs\Application\Runtime\Cache\Home\b0f331fd712556a290009631187d3bf4.php 第 64 行.
+NOTIC: [8] Undefined index: read_num D:\WWW\blogs\Application\Runtime\Cache\Home\b0f331fd712556a290009631187d3bf4.php 第 70 行.
+NOTIC: [8] Undefined index: day_time D:\WWW\blogs\Application\Runtime\Cache\Home\b0f331fd712556a290009631187d3bf4.php 第 73 行.
+NOTIC: [8] Undefined index: art_id D:\WWW\blogs\Application\Runtime\Cache\Home\b0f331fd712556a290009631187d3bf4.php 第 61 行.
+NOTIC: [8] Undefined index: title D:\WWW\blogs\Application\Runtime\Cache\Home\b0f331fd712556a290009631187d3bf4.php 第 61 行.
+NOTIC: [8] Undefined index: art_id D:\WWW\blogs\Application\Runtime\Cache\Home\b0f331fd712556a290009631187d3bf4.php 第 63 行.
+NOTIC: [8] Undefined index: source_img D:\WWW\blogs\Application\Runtime\Cache\Home\b0f331fd712556a290009631187d3bf4.php 第 63 行.
+NOTIC: [8] Undefined index: short_desc D:\WWW\blogs\Application\Runtime\Cache\Home\b0f331fd712556a290009631187d3bf4.php 第 64 行.
+NOTIC: [8] Undefined index: read_num D:\WWW\blogs\Application\Runtime\Cache\Home\b0f331fd712556a290009631187d3bf4.php 第 70 行.
+NOTIC: [8] Undefined index: day_time D:\WWW\blogs\Application\Runtime\Cache\Home\b0f331fd712556a290009631187d3bf4.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-11T16:33:09+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/three.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\CategoryModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\CategoryModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: article D:\WWW\blogs\Application\Runtime\Cache\Home\b0f331fd712556a290009631187d3bf4.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-11T16:33:16+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/two/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogarticleModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogarticleModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `blogarticle` ORDER BY read_num desc LIMIT 9   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\BlogfriendlinkModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogfriendlinkModel.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `blogfriendlink`  [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\CategoryModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\CategoryModel.class.php 第 73 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` inner join blogarticle On blogarticle.cat_idi=category.cat_id  WHERE (  cat_id=1 ) ORDER BY art_id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-11T16:33:18+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/three.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Model\CategoryModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\CategoryModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: article D:\WWW\blogs\Application\Runtime\Cache\Home\b0f331fd712556a290009631187d3bf4.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-11T16:33:33+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/two/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogarticleModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogarticleModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blogarticle` ORDER BY read_num desc LIMIT 9   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\BlogfriendlinkModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogfriendlinkModel.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blogfriendlink`  [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\CategoryModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\CategoryModel.class.php 第 73 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` inner join blogarticle On blogarticle.cat_idi=category.cat_id  WHERE (  cat_id=2 ) ORDER BY art_id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-11T16:33:35+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/view/id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogarticleModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogarticleModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `blogarticle` inner join category On blogarticle.cat_idi=category.cat_id  WHERE (  art_id=7 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\BlogfriendlinkModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogfriendlinkModel.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `blogfriendlink`  [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\CategoryModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\CategoryModel.class.php 第 73 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blogarticle`  [ RunTime:0.0020s ]
+NOTIC: [2048] Declaration of Home\Model\BlogcommentModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogcommentModel.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `blogcomment` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `blogcomment` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `blogcomment` WHERE (  art_idi=7 ) ORDER BY comment_id desc LIMIT 5   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogreplyModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogreplyModel.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `blogreply` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `blogreply` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blogreply` inner join blogcomment On blogcomment.comment_id=blogreply.comm_id  WHERE (  art_idi=7 ) ORDER BY reply_id desc LIMIT 5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-11T16:33:35+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/gettop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogarticleModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogarticleModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `blogarticle` inner join category On blogarticle.cat_idi=category.cat_id  WHERE (  art_id=7 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `blogarticle` SET `read_num`='33' WHERE (  art_id=7 ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-11T16:33:36+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/two/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogarticleModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogarticleModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `blogarticle` ORDER BY read_num desc LIMIT 9   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\BlogfriendlinkModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogfriendlinkModel.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blogfriendlink`  [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\CategoryModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\CategoryModel.class.php 第 73 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` inner join blogarticle On blogarticle.cat_idi=category.cat_id  WHERE (  cat_id=2 ) ORDER BY art_id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-11T16:33:39+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/view/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogarticleModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogarticleModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `blogarticle` inner join category On blogarticle.cat_idi=category.cat_id  WHERE (  art_id=5 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogfriendlinkModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogfriendlinkModel.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `blogfriendlink`  [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\CategoryModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\CategoryModel.class.php 第 73 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blogarticle`  [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\BlogcommentModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogcommentModel.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `blogcomment` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `blogcomment` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blogcomment` WHERE (  art_idi=5 ) ORDER BY comment_id desc LIMIT 5   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogreplyModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogreplyModel.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `blogreply` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `blogreply` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blogreply` inner join blogcomment On blogcomment.comment_id=blogreply.comm_id  WHERE (  art_idi=5 ) ORDER BY reply_id desc LIMIT 5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-11T16:33:40+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/gettop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogarticleModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogarticleModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blogarticle` inner join category On blogarticle.cat_idi=category.cat_id  WHERE (  art_id=5 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `blogarticle` SET `read_num`='14' WHERE (  art_id=5 ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-11T16:33:40+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogarticleModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogarticleModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `blogarticle` ORDER BY art_id desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blogarticle` ORDER BY read_num desc LIMIT 9   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\BlogfriendlinkModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogfriendlinkModel.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blogfriendlink`  [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\CategoryModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\CategoryModel.class.php 第 73 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-11T16:36:01+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/view/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogarticleModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogarticleModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blogarticle` inner join category On blogarticle.cat_idi=category.cat_id  WHERE (  art_id=5 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\BlogfriendlinkModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogfriendlinkModel.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `blogfriendlink`  [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\CategoryModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\CategoryModel.class.php 第 73 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blogarticle`  [ RunTime:0.0020s ]
+NOTIC: [2048] Declaration of Home\Model\BlogcommentModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogcommentModel.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `blogcomment` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `blogcomment` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blogcomment` WHERE (  art_idi=5 ) ORDER BY comment_id desc LIMIT 5   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogreplyModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogreplyModel.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `blogreply` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `blogreply` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `blogreply` inner join blogcomment On blogcomment.comment_id=blogreply.comm_id  WHERE (  art_idi=5 ) ORDER BY reply_id desc LIMIT 5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-11T16:36:02+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/gettop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogarticleModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogarticleModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blogarticle` inner join category On blogarticle.cat_idi=category.cat_id  WHERE (  art_id=5 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `blogarticle` SET `read_num`='15' WHERE (  art_id=5 ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-11T16:36:11+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/gettop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Home\Model\BlogarticleModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogarticleModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `blogarticle` inner join category On blogarticle.cat_idi=category.cat_id  WHERE (  art_id=5 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `blogarticle` SET `read_num`='15' WHERE (  art_id=5 ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-11T16:36:14+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/gettop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogarticleModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogarticleModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `blogarticle` inner join category On blogarticle.cat_idi=category.cat_id  WHERE (  art_id=5 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `blogarticle` SET `read_num`='15' WHERE (  art_id=5 ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-11T16:36:17+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/gettop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogarticleModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogarticleModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blogarticle` inner join category On blogarticle.cat_idi=category.cat_id  WHERE (  art_id=5 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `blogarticle` SET `read_num`='15' WHERE (  art_id=5 ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-11T16:36:21+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/gettop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogarticleModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogarticleModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `blogarticle` inner join category On blogarticle.cat_idi=category.cat_id  WHERE (  art_id=5 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `blogarticle` SET `read_num`='15' WHERE (  art_id=5 ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-11T16:36:31+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/view/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogarticleModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogarticleModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `blogarticle` inner join category On blogarticle.cat_idi=category.cat_id  WHERE (  art_id=5 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\BlogfriendlinkModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogfriendlinkModel.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blogfriendlink`  [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\CategoryModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\CategoryModel.class.php 第 73 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blogarticle`  [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\BlogcommentModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogcommentModel.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `blogcomment` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `blogcomment` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blogcomment` WHERE (  art_idi=5 ) ORDER BY comment_id desc LIMIT 5   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\BlogreplyModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogreplyModel.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `blogreply` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `blogreply` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blogreply` inner join blogcomment On blogcomment.comment_id=blogreply.comm_id  WHERE (  art_idi=5 ) ORDER BY reply_id desc LIMIT 5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-11T16:36:31+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/pinser/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogcommentModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogcommentModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blogcomment` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `blogcomment` [ RunTime:0.0050s ]
+SQL: INSERT INTO `blogcomment` (`art_idi`,`user_id`,`comment_text`,`comment_time`,`status`) VALUES ('5','0','            
+          qqq','08-11 04:36:31','1') [ RunTime:0.0380s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-11T16:36:31+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/gettop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogarticleModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogarticleModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `blogarticle` inner join category On blogarticle.cat_idi=category.cat_id  WHERE (  art_id=5 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `blogarticle` SET `read_num`='16' WHERE (  art_id=5 ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-11T16:36:35+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/pinser/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogcommentModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogcommentModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blogcomment` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `blogcomment` [ RunTime:0.0050s ]
+SQL: INSERT INTO `blogcomment` (`art_idi`,`user_id`,`comment_text`,`comment_time`,`status`) VALUES ('5','0','            
+          www','08-11 04:36:35','1') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-11T16:36:35+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/view/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Home\Model\BlogarticleModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogarticleModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blogarticle` inner join category On blogarticle.cat_idi=category.cat_id  WHERE (  art_id=5 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\BlogfriendlinkModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogfriendlinkModel.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blogfriendlink`  [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\CategoryModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\CategoryModel.class.php 第 73 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blogarticle`  [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\BlogcommentModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogcommentModel.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `blogcomment` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `blogcomment` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blogcomment` WHERE (  art_idi=5 ) ORDER BY comment_id desc LIMIT 5   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\BlogreplyModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogreplyModel.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `blogreply` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `blogreply` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blogreply` inner join blogcomment On blogcomment.comment_id=blogreply.comm_id  WHERE (  art_idi=5 ) ORDER BY reply_id desc LIMIT 5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-11T16:36:35+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/gettop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Home\Model\BlogarticleModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogarticleModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blogarticle` inner join category On blogarticle.cat_idi=category.cat_id  WHERE (  art_id=5 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `blogarticle` SET `read_num`='17' WHERE (  art_id=5 ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-11T16:36:42+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/hinser/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogreplyModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogreplyModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blogreply` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `blogreply` [ RunTime:0.0050s ]
+SQL: INSERT INTO `blogreply` (`comm_id`,`user_id`,`reply_text`,`reply_time`) VALUES ('38','1','                  
+       www         ','08-11 04:36:42') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-11T16:36:42+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/view/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogarticleModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogarticleModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blogarticle` inner join category On blogarticle.cat_idi=category.cat_id  WHERE (  art_id=5 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogfriendlinkModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogfriendlinkModel.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blogfriendlink`  [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\CategoryModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\CategoryModel.class.php 第 73 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blogarticle`  [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\BlogcommentModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogcommentModel.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `blogcomment` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `blogcomment` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blogcomment` WHERE (  art_idi=5 ) ORDER BY comment_id desc LIMIT 5   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogreplyModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogreplyModel.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `blogreply` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `blogreply` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blogreply` inner join blogcomment On blogcomment.comment_id=blogreply.comm_id  WHERE (  art_idi=5 ) ORDER BY reply_id desc LIMIT 5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-11T16:36:43+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/gettop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogarticleModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogarticleModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blogarticle` inner join category On blogarticle.cat_idi=category.cat_id  WHERE (  art_id=5 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `blogarticle` SET `read_num`='18' WHERE (  art_id=5 ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-08-11T16:36:52+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/hinser/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogreplyModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogreplyModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blogreply` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `blogreply` [ RunTime:0.0090s ]
+SQL: INSERT INTO `blogreply` (`comm_id`,`user_id`,`reply_text`,`reply_time`) VALUES ('29','1','                  
+            wwwee    ','08-11 04:36:52') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-11T16:36:52+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/view/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogarticleModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogarticleModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blogarticle` inner join category On blogarticle.cat_idi=category.cat_id  WHERE (  art_id=5 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogfriendlinkModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogfriendlinkModel.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blogfriendlink`  [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\CategoryModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\CategoryModel.class.php 第 73 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blogarticle`  [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\BlogcommentModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogcommentModel.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `blogcomment` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `blogcomment` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blogcomment` WHERE (  art_idi=5 ) ORDER BY comment_id desc LIMIT 5   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogreplyModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogreplyModel.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `blogreply` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `blogreply` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blogreply` inner join blogcomment On blogcomment.comment_id=blogreply.comm_id  WHERE (  art_idi=5 ) ORDER BY reply_id desc LIMIT 5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-11T16:36:52+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/gettop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogarticleModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogarticleModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blogarticle` inner join category On blogarticle.cat_idi=category.cat_id  WHERE (  art_id=5 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `blogarticle` SET `read_num`='19' WHERE (  art_id=5 ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-11T16:37:50+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/two/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogarticleModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogarticleModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blogarticle` ORDER BY read_num desc LIMIT 9   [ RunTime:0.0020s ]
+NOTIC: [2048] Declaration of Home\Model\BlogfriendlinkModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogfriendlinkModel.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `blogfriendlink`  [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\CategoryModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\CategoryModel.class.php 第 73 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` inner join blogarticle On blogarticle.cat_idi=category.cat_id  WHERE (  cat_id=3 ) ORDER BY art_id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-11T16:37:52+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/view/id/13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogarticleModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogarticleModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `blogarticle` inner join category On blogarticle.cat_idi=category.cat_id  WHERE (  art_id=13 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\BlogfriendlinkModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogfriendlinkModel.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `blogfriendlink`  [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\CategoryModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\CategoryModel.class.php 第 73 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blogarticle`  [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\BlogcommentModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogcommentModel.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `blogcomment` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `blogcomment` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blogcomment` WHERE (  art_idi=13 ) ORDER BY comment_id desc LIMIT 5   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\BlogreplyModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogreplyModel.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `blogreply` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `blogreply` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blogreply` inner join blogcomment On blogcomment.comment_id=blogreply.comm_id  WHERE (  art_idi=13 ) ORDER BY reply_id desc LIMIT 5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-11T16:37:52+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/gettop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogarticleModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogarticleModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `blogarticle` inner join category On blogarticle.cat_idi=category.cat_id  WHERE (  art_id=13 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `blogarticle` SET `read_num`='142' WHERE (  art_id=13 ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-11T16:37:59+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/two/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\BlogarticleModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogarticleModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `blogarticle` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blogarticle` ORDER BY read_num desc LIMIT 9   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\BlogfriendlinkModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\BlogfriendlinkModel.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `blogfriendlink` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blogfriendlink`  [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\CategoryModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\CategoryModel.class.php 第 73 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` inner join blogarticle On blogarticle.cat_idi=category.cat_id  WHERE (  cat_id=2 ) ORDER BY art_id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-11T16:42:56+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/three.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\CategoryModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\CategoryModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: article D:\WWW\blogs\Application\Runtime\Cache\Home\b0f331fd712556a290009631187d3bf4.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-11T16:42:57+08:00 ] 127.0.0.1 /blogs/index.php/Home/Index/three.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\CategoryModel::page() should be compatible with that of Think\Model::page() D:\WWW\blogs\Application\Home\Model\CategoryModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: article D:\WWW\blogs\Application\Runtime\Cache\Home\b0f331fd712556a290009631187d3bf4.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.204012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.204012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

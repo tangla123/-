@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>后台管理</title>
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Admin/css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Admin/css/main.css"/>
+    <script type="text/javascript" src="__PUBLIC__/Admin/js/libs/modernizr.min.js"></script>
+</head>
+<body>
+<include file="Pub/top" /> 
+    <include file="Pub/left" /> 
+    <!--/sidebar-->
+    <div class="main-wrap">
+
+        <div class="crumb-wrap">
+            <div class="crumb-list"><i class="icon-font"></i><a href="/js__PUBLIC__/Admin/css/admin/design/">首页</a><span class="crumb-step">&gt;</span><a class="crumb-name" href="/js__PUBLIC__/Admin/css/admin/design/">作品管理</a><span class="crumb-step">&gt;</span><span>新增作品</span></div>
+        </div>
+        <div class="result-wrap">
+            <div class="result-content">
+                <form action="__URL__/up/" method="post" enctype="multipart/form-data">
+                    <table class="insert-tab" width="100%">
+                        <tbody>
+                    <tr>
+                        <td><label for="user">原密码：</label></td>
+                        <td><input type="text" name="pwd1" id="user" size="40" class="admin_input_style" value="" /></td>
+                    </tr>
+                    <tr>
+                        <td width="100px"><label for="pwd2">新密码：</label></td>
+                        <td><input type="text" name="lo_pwd" id="pwd" size="40" class="admin_input_style" value=""/></td>
+                    </tr>
+                    <tr>
+                        <td><label for="pwd">确认密码：</label></td>
+                        <td><input type="text" name="pwd3" id="pwd" size="40" class="admin_input_style" value=""/></td>
+                    </tr>
+                    <tr>
+                        <td>
+                        <input type="submit" tabindex="3" value="提交" class="btn btn-primary" /></td>
+                    </tr>
+                    </tbody></table>
+                </form>
+            </div>
+        </div>
+
+    </div>
+    <!--/main-->
+</div>
+</body>
+</html>

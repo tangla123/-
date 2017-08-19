@@ -1,0 +1,223 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>view-黑色时间轴个人博客模板</title>
+<meta name="keywords" content="黑色模板,个人网站模板,个人博客模板,博客模板,css3,html5,网站模板" />
+<meta name="description" content="这是一个有关黑色时间轴的css3 html5 网站模板" />
+<link href="__PUBLIC__/Home/css/styles.css" rel="stylesheet">
+<link href="__PUBLIC__/Home/css/view.css" rel="stylesheet">
+<!-- 返回顶部调用 begin -->
+<link href="__PUBLIC__/Home/css/lrtk.css" rel="stylesheet" />
+<script type="text/javascript" src="__PUBLIC__/Home/js/jquery.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Home/js/js.js"></script>
+<!-- 返回顶部调用 end-->
+<!--[if lt IE 9]>
+<script src="__PUBLIC__/Home/js/modernizr.js"></script>
+<![endif]-->
+</head>
+<body>
+ <include file="Puc/top" />
+
+<!--header end-->
+<div id="mainbody">
+  <div class="blogs">
+    <div id="index_view">
+      <h2 class="t_nav"><a href="{:U('Index/index')}">网站首页</a><a href="__URL__/two/id/{$data.cat_id}">{$data.cat_name}</a></h2>
+      <h1 class="c_titile">{$data.title}</h1>
+      <p class="box">发布时间：{$data.day_time}<span>编辑：{$data.admin_name}</span><span>阅读:（<span id="yd" style="margin:0px;"></span>）</p>
+      <ul>
+        <p> {$data.short_desc} </p>
+        <p><img src="__ROOT__/{$data.source_img}"></p>
+        <p> 
+          {$data.content}
+       </p>
+      </ul>
+       <div class="share"> 
+        <!-- Baidu Button BEGIN -->
+        <div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare"> 
+        <span class="bds_more">分享到：</span> 
+        <a class="bds_qzone"></a> 
+        <a class="bds_tsina"></a> 
+        <a class="bds_tqq"></a> 
+        <a class="bds_renren"></a> 
+        <a class="bds_t163"></a> 
+        <a class="shareCount"></a> 
+        </div>
+        <script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6574585" ></script> 
+        <script type="text/javascript" id="bdshell_js"></script> 
+        <script type="text/javascript">
+          document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+        </script> 
+        <!-- Baidu Button END --> 
+      </div>
+      <div>
+        <button class="dian">点赞</button>&nbsp;<span class="shu">{$data.zan}</span>
+      </div>
+      <div class="otherlink">
+        <h2>相关文章</h2>
+        <ul>
+          <volist name="xiang" id="xi">
+          <if condition="( $data.cat_id eq $xi.cat_idi )"> 
+          <li>
+          <a href="{$xi.art_id}">
+          {$xi.title}  
+          </a>
+          </li></if> 
+          </volist>
+        </ul>
+      </div>
+     <div >
+          <h3>评论列表</h3>
+          <!-- 评论 -->
+          <textarea name="comment_text" id="comment_text" cols="90" rows="3">
+            
+          </textarea>
+          <input type="button" value="评论" id="bot">
+          <!-- 最新的五条评论 -->
+
+          <ul>
+            <volist name="pin" id="p"> 
+              <li>
+              <div style="height:30px;"></div>
+              <img src="__ROOT__/{$p.lo_img}" alt="" width="50px" style="float:left;disply:inline-block">
+              &nbsp;
+                <span>
+                  {$p.lo_name} ：
+                </span>
+                <span>
+                   {$p.comment_text} 
+                </span>
+                <div style="clear:both;height:10px"></div>
+                <div style="margin-left:50px">
+                <volist name="reply" id="ply"> 
+                <if condition=" $p.comment_id eq $ply.comm_id "> 
+                <p> 
+                <img src="__ROOT__/{$ply.lo_img}" alt="" width="50px" style="float:left;disply:inline-block">
+                <span>{$ply.lo_name}：</span>
+                <span>
+                {$ply.reply_text}      
+                </span>
+                <div style="clear:both;disply:inline-block"></div>
+                </p>
+                </if>
+                </volist> 
+                <button class="fu" value="{$p.comment_id}">回复</button>
+                <div class="die" style="display:none">
+                <div>
+                <textarea name="replay_text" class="retext" cols="70" rows="3">
+                  
+                </textarea>
+                <button class="but" value="{$p.comment_id}">确认回复</button>
+                </div>
+                
+                </div>
+                </div>
+              </li>
+            </volist>
+          </ul>
+         
+     </div>
+    </div>
+    <!--bloglist end-->
+   <include file="Puc/right" />
+  </div>
+  <!--blogs end--> 
+ 
+</div>
+
+<!--mainbody end-->
+<include file="Puc/bottom" />
+<script src="__PUBLIC__/Home/js/jquery.js"></script>
+<script>
+// 阅读量加一
+    window.onload = function(){ 
+   $kk= {$data.read_num}+1;
+   $id= {$data.art_id};
+   $("#yd").html($kk);
+  $.ajax({ 
+  type: "POST", 
+  url: "__URL__/gettop/", 
+  data:{kk:$kk,id:$id},
+  success: function(data){ 
+  }
+})
+}
+
+//点赞+1
+ $(".dian").click(function(){ 
+  if("{$Think.cookie.uid}"===""){
+    alert("请先登录，再评论！")
+  }else{
+  $(this).html("已点赞");
+   $zan= {$data.zan}+1;
+   $id= {$data.art_id};
+   $(".shu").html($zan);
+  $.ajax({ 
+  type: "POST", 
+  url: "__URL__/gett/", 
+  data:{zan:$zan,id:$id},
+  success: function(data){ 
+  }
+})
+ }
+})
+
+// 评论
+$("#bot").click(function(){
+  if("{$Think.cookie.uid}"===""){
+    alert("请先登录，再评论！")
+  }else{
+  $id={$data.art_id};
+  $author="{$Think.cookie.uid}";
+  $text=$("#comment_text").val();
+  $.ajax({
+    type:"POST",
+    url:"__URL__/pinser/",
+    data:{art_id:$id,
+          author:$author,
+          text:$text,
+    },
+     success: function(){ 
+  },
+  })
+  parent.location.reload();
+  }
+  
+})
+
+// 回复
+$(".fu").click(function(){
+  if("{$Think.cookie.uid}"===""){
+    alert("请先登录，再回复！")
+  }else{
+  $(this).next().toggle();
+}
+})
+
+$(".but").click(function(){
+  // $(".die").show();
+  
+  $id=$(this).val();
+  $text=$(this).siblings().val();
+  $author="{$Think.cookie.uid}";
+  // alert($text);
+  $.ajax({
+    type:"POST",
+    url:"__URL__/hinser/",
+    data:{id:$id,
+          text:$text,
+          author:$author,
+    },
+     success: function(){ 
+  },
+  })
+  parent.location.reload();
+
+})
+
+
+</script>
+
+</body>
+</html>

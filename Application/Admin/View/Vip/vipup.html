@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>后台管理</title>
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Admin/css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Admin/css/main.css"/>
+    <script type="text/javascript" src="__PUBLIC__/Admin/js/libs/modernizr.min.js"></script>
+</head>
+<body>
+<include file="Pub/top" /> 
+    <include file="Pub/left" /> 
+    <!--/sidebar-->
+    <div class="main-wrap">
+
+        <div class="crumb-wrap">
+            <div class="crumb-list"><i class="icon-font"></i><a href="/js__PUBLIC__/Admin/css/admin/design/">首页</a><span class="crumb-step">&gt;</span><a class="crumb-name" href="/js__PUBLIC__/Admin/css/admin/design/">作品管理</a><span class="crumb-step">&gt;</span><span>新增作品</span></div>
+        </div>
+        <div class="result-wrap">
+            <div class="result-content">
+                <form action="__URL__/update/" method="post" enctype="multipart/form-data">
+                    <table class="insert-tab" width="100%">
+                        <tbody>
+                    <tr>
+                        <td><label for="user">用户名：</label></td>
+                        <td> <input type="text" name="lo_name" id="user" size="40" class="admin_input_style" value="{$data.lo_name}" /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="pwd">密码：</label></td>
+                        <td><input type="text" name="lo_pwd" id="pwd" size="40" class="admin_input_style" value="{$data.lo_pwd}"/></td>
+                    </tr>
+                    <tr>
+                        <td><label for="file">图像：</label></td>
+                        <td><input type="file" name="lo_img"  size="40" class="admin_input_style" /></td>
+                    </tr>
+                    <tr>
+                        <td>
+                        <input type="hidden" value="{$data.id}" name="lo_id">
+                        <input type="submit" tabindex="3" value="提交" class="btn btn-primary" /></td>
+                    </tr>
+                    </tbody></table>
+                </form>
+            </div>
+        </div>
+
+    </div>
+    <!--/main-->
+</div>
+</body>
+</html>

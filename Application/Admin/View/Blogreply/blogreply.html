@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>后台管理</title>
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Admin/css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Admin/css/main.css"/>
+    <script type="text/javascript" src="__PUBLIC__/Admin/js/libs/modernizr.min.js"></script>
+</head>
+<body>
+<include file="Pub/top" /> 
+    <include file="Pub/left" /> 
+    <!--/sidebar-->
+    <div class="main-wrap">
+
+        <div class="crumb-wrap">
+            <div class="crumb-list"><i class="icon-font"></i><a href="/js__PUBLIC__/Admin/css/admin">首页</a><span class="crumb-step">&gt;</span><span class="crumb-name">回复管理</span></div>
+        </div>
+        <div class="search-wrap">
+            <div class="search-content">
+                <form action="__URL__/sel/" method="post">
+                    <table class="search-tab">
+                        <tr>
+                            <th width="120">选择分类:</th>
+                            <td>
+                                <select name="cat_a" id="">
+                                 <volist name="date" id="v">
+                                  <option value="{$v.cat_id}">{$v.cat_name}</option>
+                                  </volist>
+                                </select>
+                            </td>
+                            <th width="70">博文名称:</th>
+                            <td><input class="common-text" placeholder="全名" name="ar" type="text"></td>
+         
+                            <td><input class="btn btn-primary btn2" name="sub" value="查询" type="submit"></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+        <div class="result-wrap">
+            <form name="myform" id="myform" method="post">
+                <div class="result-title">
+                    <div class="result-list">
+                        <a href="__URL__/blogarticleinsert.html"><i class="icon-font"></i>新增作品</a>
+                        <a id="batchDel" href="javascript:void(0)"><i class="icon-font"></i>批量删除</a>
+                        <a id="updateOrd" href="javascript:void(0)"><i class="icon-font"></i>更新排序</a>
+                    </div>
+                </div>
+                <div class="result-content">
+                    <table class="result-tab" width="100%">
+                        <tr>
+                            <th>ID</th>
+                            <th>回复的评论ID</th>
+                            <th>回复内容</th>
+                            <th>回复时间</th>
+                            <th>回复人ID</th>
+                        </tr>
+                    <volist name="data" id="v">
+                     <!-- <td>{$v.art_id}</td> -->
+                        <tr>
+                            <td>{$v.reply_id}</td>
+                            <td>{$v.user_id}</td>
+                            <td>{$v.reply_text}</td>
+                            <td>{$v.reply_time}</td>
+                            <td>{$v.lo_name}</td>
+                        </tr>
+                        </volist>
+                    </table>
+                    <div class="list-page">{$page}</div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!--/main-->
+</div>
+</body>
+</html>

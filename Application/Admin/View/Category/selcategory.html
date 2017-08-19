@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>后台管理</title>
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Admin/css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Admin/css/main.css"/>
+    <script type="text/javascript" src="__PUBLIC__/Admin/js/libs/modernizr.min.js"></script>
+</head>
+<body>
+<include file="Pub/top" /> 
+    <include file="Pub/left" /> 
+    <!--/sidebar-->
+    <div class="main-wrap">
+
+        <div class="crumb-wrap">
+            <div class="crumb-list"><i class="icon-font"></i><a href="/js__PUBLIC__/Admin/css/admin">首页</a><span class="crumb-step">&gt;</span><span class="crumb-name">作品管理</span></div>
+        </div>
+        <div class="search-wrap">
+            <div class="search-content">
+                <form action="__URL__/selcategory/" method="post">
+                    <table class="search-tab">
+                        <tr>
+                            <th width="120">选择分类:</th>
+                            <td>
+                                 <select name="cat_i" id="">
+                                   <volist name="data" id="v">
+                                  <option value="{$v.cat_id}">{$v.cat_name}</option>
+                                  </volist>
+                                </select>
+                            </td>
+                            <td><input class="btn btn-primary btn2" name="sub" value="查询" type="submit"></td>
+                             <td><a class="btn btn-primary btn2" href="__URL__/category.html">返回列表首页</a></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+        <div class="result-wrap">
+            <form name="myform" id="myform" method="post">
+                <div class="result-title">
+                    <div class="result-list">
+                        <a href="__URL__/cateinsert.html"><i class="icon-font"></i>新增作品</a>
+                        <a id="batchDel" href="javascript:void(0)"><i class="icon-font"></i>批量删除</a>
+                        <a id="updateOrd" href="javascript:void(0)"><i class="icon-font"></i>更新排序</a>
+                    </div>
+                </div>
+                <div class="result-content">
+                    <table class="result-tab" width="100%">
+                        <tr>
+                            <th class="tc" width="5%"><input class="allChoose" name="" type="checkbox"></th>
+                            <th>排序</th>
+                            <th>ID</th>
+                            <th>分类名称</th>
+                            <th>别名</th>
+                            <th>发布人</th>
+                            <th>更新时间</th>
+                            <th>操作</th>
+                        </tr>
+             
+                        <tr>
+                        <!-- <td>{$v.cat_id}</td> -->
+                            <td class="tc"><input name="id[]" value="59" type="checkbox"></td>
+                            <td>
+                                <input name="ids[]" value="59" type="hidden">
+                                <input class="common-input sort-input" name="ord" value="{$date.ord}" type="text">
+                            </td>
+                            
+                            <td>{$date.cat_id}</td>
+                            <td>{$date.cat_name}</td>
+                            <td>{$date.alias_name}</td>
+                            <td>{$date.addpeople_name}</td>
+                            <td>{$date.cat_timer}</td>
+                            <td>
+                                <a class="link-update" href="__URL__/upcateinsert/id/{$date.cat_id}">修改</a>
+                                <a class="link-del" href="__URL__/del/id/{$date.cat_id}">删除</a>
+                            </td>
+                        </tr>
+                       
+                    </table>
+                    <div class="list-page"> {$page}</div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!--/main-->
+</div>
+</body>
+</html>
