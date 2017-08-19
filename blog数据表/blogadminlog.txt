@@ -1,0 +1,1 @@
+"log_id"	"log_info"	"log_time"	"ip"	"adm_id"
